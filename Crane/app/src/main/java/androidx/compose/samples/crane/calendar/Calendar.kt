@@ -285,3 +285,10 @@ fun DayPreview() {
         Calendar(DatesLocalDataSource().year2020, onDayClicked = { _, _ -> })
     }
 }
+
+@Composable
+fun NewCalendarTestComposable() {
+    Column() {
+        // test
+    }
+}
