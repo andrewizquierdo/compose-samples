@@ -44,3 +44,10 @@ fun SemiRect(color: Color, lookingLeft: Boolean = true) {
         drawRect(size = size, topLeft = offset, color = color)
     }
 }
+
+@Composable
+fun NewShapeTest() {
+    Column() {
+        // test
+    }
+}
